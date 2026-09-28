@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a131b"/><stop offset="1" stop-color="#0f090c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#g)"/>
+  <circle cx="600" cy="690" r="245" fill="none" stroke="#d69a9e" stroke-opacity=".28" stroke-width="2"/>
+  <text x="600" y="710" text-anchor="middle" fill="#f4eae3" font-family="Georgia,serif" font-size="160">D ♥ T</text>
+  <text x="600" y="805" text-anchor="middle" fill="#c9b7b5" font-family="Arial,sans-serif" font-size="30" letter-spacing="9">29 • 04 • 2025</text>
+</svg>

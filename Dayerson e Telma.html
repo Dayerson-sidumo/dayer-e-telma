@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10090d" />
+  <meta name="description" content="Um pequeno lugar na internet para a história de Dayerson e Telma." />
+  <title>Dayerson & Telma ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <div class="intro" id="intro">
+    <div class="intro-inner">
+      <p class="eyebrow">UM PEQUENO LUGAR SÓ NOSSO</p>
+      <h1>Para <em>Telma.</em></h1>
+      <p class="intro-copy">Há histórias que cabem numa fotografia. A nossa precisou de um site inteiro.</p>
+      <button class="pill primary" id="enterSite">Entrar na nossa história <span>♡</span></button>
+    </div>
+  </div>
+
+  <header class="hero" id="inicio">
+    <div class="hero-media">
+      <img src="assets/foto-principal.jpg" onerror="this.onerror=null;this.src='assets/foto-fallback.svg'" alt="Dayerson e Telma" />
+    </div>
+    <div class="hero-shade"></div>
+
+    <nav class="nav wrap">
+      <a class="brand" href="#inicio" aria-label="Início">D <span>♥</span> T</a>
+      <div class="nav-links">
+        <a href="#historia">História</a>
+        <a href="#timeline">Linha do tempo</a>
+        <a href="#momentos">Momentos</a>
+        <a href="#carta">Para ti</a>
+      </div>
+    </nav>
+
+    <div class="hero-content wrap reveal">
+      <p class="eyebrow">29 • 04 • 2025</p>
+      <h2 class="display">Dayerson <em>&</em><br />Telma</h2>
+      <p class="lead">Dois caminhos, uma história — e ainda tantos capítulos por viver.</p>
+      <div class="hero-actions">
+        <a href="#contador" class="pill primary">Ver a nossa história</a>
+        <button class="pill ghost" id="musicButton" type="button"><span id="musicIcon">♫</span> <span id="musicLabel">Nossa música</span></button>
+      </div>
+      <p class="music-credit">Anselmo Ralph feat. Sandokan — <em>Minha Bebé</em></p>
+    </div>
+
+    <div class="scroll-note">desliza para continuar <span>↓</span></div>
+  </header>
+
+
+  <main>
+    <section class="section counter-section" id="contador">
+      <div class="wrap narrow reveal">
+        <p class="eyebrow center">DESDE 29 DE ABRIL DE 2025</p>
+        <h2 class="section-title center">O tempo passa.<br /><em>Nós continuamos.</em></h2>
+        <div class="counter" aria-label="Tempo de relacionamento">
+          <div><strong id="days">0</strong><span>dias</span></div>
+          <div><strong id="hours">00</strong><span>horas</span></div>
+          <div><strong id="minutes">00</strong><span>minutos</span></div>
+          <div><strong id="seconds">00</strong><span>segundos</span></div>
+        </div>
+        <p class="soft center">E cada segundo acrescenta mais uma linha à nossa história. ❤️</p>
+      </div>
+    </section>
+
+    <section class="section" id="historia">
+      <div class="wrap story-grid">
+        <figure class="photo-frame reveal">
+          <img src="assets/foto-principal.jpg" onerror="this.onerror=null;this.src='assets/foto-fallback.svg'" alt="Uma memória de Dayerson e Telma" />
+          <figcaption>um dos nossos momentos ♡</figcaption>
+        </figure>
+
+        <div class="story-copy reveal">
+          <p class="eyebrow">CAPÍTULO 01</p>
+          <h2 class="section-title">Quando “eu” e “tu”<br /><em>viraram “nós”.</em></h2>
+          <p>Desde 29 de abril de 2025, esta deixou de ser apenas a história de duas pessoas. Passou a ser um caminho construído a dois — com risadas, saudades, desafios, carinho e aqueles pequenos detalhes que só nós entendemos.</p>
+          <p>Este site é um lugar para guardar tudo isso. E, principalmente, para lembrar que ainda há muito por viver.</p>
+          <div class="signature">D → T <span>sempre a escolher-te.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">A NOSSA LINHA DO TEMPO</p>
+          <h2 class="section-title">Pequenos momentos.<br /><em>Uma grande história.</em></h2>
+        </div>
+
+        <div class="timeline">
+          <article class="time-card reveal">
+            <span class="time-dot"></span>
+            <div class="time-date">29.04.2025</div>
+            <h3>O nosso começo</h3>
+            <p>O dia que ficou marcado como o início oficial desta história e de tudo o que veio depois.</p>
+          </article>
+          <article class="time-card reveal">
+            <span class="time-dot"></span>
+            <div class="time-date">DEPOIS DISSO</div>
+            <h3>Mil pequenos “nós”</h3>
+            <p>Conversas, encontros, gargalhadas, selfies, beijos, saídas e pequenos momentos que foram tornando tudo mais nosso.</p>
+          </article>
+          <article class="time-card reveal">
+            <span class="time-dot"></span>
+            <div class="time-date">HOJE</div>
+            <h3>Continuamos a escolher-nos</h3>
+            <p>Sem saber tudo o que vem a seguir — mas com vontade de continuar a escrever juntos.</p>
+          </article>
+          <article class="time-card future reveal">
+            <span class="time-dot"></span>
+            <div class="time-date">PRÓXIMO CAPÍTULO</div>
+            <h3>Ainda por viver…</h3>
+            <p>Esta parte fica em branco de propósito. É para nós preenchermos juntos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section moments-section" id="momentos">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow">NOSSOS MOMENTOS</p>
+          <h2 class="section-title">Memórias que merecem<br /><em>ficar para sempre.</em></h2>
+          <p class="soft">Adicionei as vossas fotografias favoritas para a galeria ficar ainda mais vossa.</p>
+        </div>
+
+        <div class="gallery">
+          <button class="gallery-item gallery-main reveal" data-src="assets/foto-01.jpg" aria-label="Abrir fotografia 1">
+            <img src="assets/foto-01.jpg" alt="Memória do casal 1" />
+            <span>ver memória</span>
+          </button>
+          <button class="gallery-item reveal" data-src="assets/foto-02.jpg" aria-label="Abrir fotografia 2"><img src="assets/foto-02.jpg" alt="Memória do casal 2" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-03.jpg" aria-label="Abrir fotografia 3"><img src="assets/foto-03.jpg" alt="Memória do casal 3" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-04.jpg" aria-label="Abrir fotografia 4"><img src="assets/foto-04.jpg" alt="Memória do casal 4" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-05.jpg" aria-label="Abrir fotografia 5"><img src="assets/foto-05.jpg" alt="Memória do casal 5" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-06.jpg" aria-label="Abrir fotografia 6"><img src="assets/foto-06.jpg" alt="Memória do casal 6" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-07.jpg" aria-label="Abrir fotografia 7"><img src="assets/foto-07.jpg" alt="Memória do casal 7" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-08.jpg" aria-label="Abrir fotografia 8"><img src="assets/foto-08.jpg" alt="Memória do casal 8" /></button>
+          <button class="gallery-item reveal" data-src="assets/foto-09.jpg" aria-label="Abrir fotografia 9"><img src="assets/foto-09.jpg" alt="Memória do casal 9" /></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reasons-section">
+      <div class="wrap reasons-layout">
+        <div class="section-head reveal">
+          <p class="eyebrow">COISAS QUE TALVEZ EU NEM DIGA SEMPRE</p>
+          <h2 class="section-title">Há muitas razões.<br /><em>Mas todas acabam em ti.</em></h2>
+        </div>
+
+        <div class="notes">
+          <button class="note reveal" type="button"><span>01</span><p>Porque contigo, até um dia normal pode virar uma memória especial.</p><small>toca em mim ♡</small></button>
+          <button class="note reveal" type="button"><span>02</span><p>Porque gosto da forma como a nossa história tem detalhes que só nós entendemos.</p><small>toca em mim ♡</small></button>
+          <button class="note reveal" type="button"><span>03</span><p>Porque ainda quero descobrir muitos lugares e muitas versões da vida contigo.</p><small>toca em mim ♡</small></button>
+          <button class="note reveal" type="button"><span>04</span><p>Porque, entre tanta gente no mundo, tive a sorte de a minha história encontrar a tua.</p><small>toca em mim ♡</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="carta">
+      <div class="wrap narrow center reveal">
+        <div class="tiny-heart">♥</div>
+        <p class="eyebrow">PARA TELMA BALOI</p>
+        <h2 class="section-title">Há uma última coisa<br /><em>que quero que leias.</em></h2>
+        <p class="soft letter-intro">Não cabe numa fotografia. Nem num contador. Então deixei aqui, só para ti.</p>
+        <button class="pill primary big" id="openLetter" type="button">Abrir a minha carta ❤️</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>Feito com amor por Dayerson para Telma.</p>
+      <span>29.04.2025 — ∞</span>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" id="closeLightbox" aria-label="Fechar">×</button>
+    <img id="lightboxImg" alt="Fotografia ampliada" />
+  </div>
+
+  <div class="music-modal" id="musicModal" aria-hidden="true">
+    <button class="close" id="closeMusic" aria-label="Fechar">×</button>
+    <div class="music-card">
+      <p class="eyebrow">A NOSSA MÚSICA</p>
+      <h3>Minha Bebé</h3>
+      <p class="music-artist">Anselmo Ralph feat. Sandokan</p>
+      <iframe
+        title="Minha Bebé — Anselmo Ralph feat. Sandokan"
+        src="https://open.spotify.com/embed/track/4VgHiOVD4LEFWFrnm07WoQ?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+      </iframe>
+      <p class="music-note">Uma música para tocar enquanto percorres um bocadinho da nossa história. ♡</p>
+      <a class="stream-link" href="https://www.youtube.com/watch?v=wVUpUFcOgvU" target="_blank" rel="noopener">Ouvir no YouTube ↗</a>
+    </div>
+  </div>
+
+  <div class="letter-modal" id="letterModal" aria-hidden="true">
+    <button class="close" id="closeLetter" aria-label="Fechar">×</button>
+    <div class="letter-paper">
+      <p class="letter-kicker">Para a minha Telma,</p>
+      <h3>Se este site pudesse falar…</h3>
+      <p>Ele provavelmente diria que foi feito para guardar um pedaço de nós. Não porque um site consiga explicar o que sinto, mas porque eu queria criar um lugar onde as nossas memórias pudessem morar.</p>
+      <p>Quero que saibas que continuo a olhar para o que construímos com carinho. Gosto do que já vivemos, mas gosto ainda mais de pensar no que ainda nos espera.</p>
+      <p>Que venham mais fotografias, mais histórias, mais dias bons, mais desafios vencidos e mais momentos em que olhamos um para o outro e lembramos por que começámos.</p>
+      <p class="letter-end">Com amor,<br /><strong>Dayerson.</strong> ❤️</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
